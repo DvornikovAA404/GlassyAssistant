@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "URL Extractor",
+  "version": "1.0",
+  "description": "Получение URL активной вкладки",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "url-extractor@yourdomain.com"
+    }
+  }
+}
